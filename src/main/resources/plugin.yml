@@ -1,0 +1,23 @@
+main: minecraftNutrition.MinecraftNutrition
+name: MinecraftNutrition
+version: 1.0
+author: OmniPootato
+description: This plugin reminds you to eat a balanced diet in minecraft, your favorite block game!
+
+api-version: 1.19
+
+commands:
+
+  healthStats:
+    description: a command to check the Health Status of a player
+    usage: /<command> playerName(optional)
+    aliases: hs, health
+
+  info:
+    description: a command to see how this plugin works
+    usage: /<command>
+
+  foodinfo:
+    description: a command to see the nutritional values of each food item
+    usage: /<command>
+

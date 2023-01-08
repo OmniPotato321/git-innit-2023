@@ -1,0 +1,25 @@
+main: me.op.minecraftNutrition.MinecraftNutrition
+name: MinecraftNutrition
+version: 1.0
+author: OmniPootato
+
+api-version: 1.19
+
+commands:
+  inflict:
+    description: a command to give a player an illness
+    usage: /<command> diseaseName playerName(optional)
+
+
+  cure:
+    description: a command to cure a player of an illness
+    usage: /<command> diseaseName playerName(optional)
+
+  healthStats:
+    description: a command to check the Health Status of a player
+    usage: /<command> playerName(optional)
+    aliases: hs, health
+
+
+
+
